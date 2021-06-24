@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 90vh;
+    width: 100%;
+    float: left;
+  background-image: url(../imgg/c62246425d2c45d07ff2ad24ecd620cc.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.topbar{
+    width: 100%;
+    height: 13vh;
+    float: left;
+    position: fixed;/*topbar fixed kore */
+    z-index: 1; /*baki page er likha topbar er nichay diye jabe*/
+
+   background-color: #330033; 
+    
+}
+.topbar .menubar{
+    height: 13vh;
+    width: 33.33%;
+    float: left;
+ 
+}
+.topbar .menubar ul{
+    float: right;
+    padding-top: 32px;
+    padding-right: 15px;
+}
+.topbar .menubar ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    opacity: .7;
+}
+.topbar .menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family:'Roboto', sans-serif; 
+}
+.topbar .menubar ul li:hover{
+    opacity: 1;
+}
+.topbar .titlebar{
+    height: 13vh;
+    width: 33.33%;
+    float: left;
+    
+}
+.topbar .titlebar h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    padding-top: 29px;
+}
+
+.topbar .link_section{
+    width: 33.33%;
+    height: 13vh;
+    float: left;
+  
+}
+.topbar .link_section buttongroup{
+    padding-top: 27px;
+    padding-left: 15px;
+
+ 
+}
+.topbar .link_section button{
+ float: left;
+    padding: 8px 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    outline: none;
+    margin: 15px;
+    font-family: arial;
+    font-weight: 600;
+    color: white;
+    background: none;
+}
+.topbar .link_section button:hover{
+    border: :2px solid white;
+} 
+.topbar .link_section .active{
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.topbar .link_section .active:hover{
+    border: 2px solid dodgerblue;
+}
+.container{
+    position: relative; /* relative mane only ei                      div theke position count                      korbe*/
+    height: 77vh;
+    width: 100%;
+    float: left;
+    margin-top: 13vh;
+ 
+}
+.container .main_title{
+    width: 48%;
+    position: absolute;/* likhata top/left/right                      krte use kori*/
+    left: 50%;
+    height: 28vh;
+    top: 10vh;
+    transform: translateX(-50%);
+}
+.container .main_title h1{
+    text-align: center;
+    font-size: 95px;
+    font-family: forte;
+    transform: rotate(-9deg);
+    color: white;
+}
+.container .sub_title{
+    
+    width: 48%;
+    position: absolute;
+    left: 50%;
+    top: 38vh;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 8px 0px;
+    font-family: arial;
+    font-size: 22px;
+    color: white;
+    
+}
+.container .title_link{
+    width: 12%;
+    position: absolute;
+   
+    left: 50%;
+    top: 45vh;
+    transform: translateX(-50%);
+}
+.container .title_link button{
+    padding: 8px 15px;
+    background: dodgerblue;
+    border: none;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.container .title_link button:hover{
+    border: 2px solid dodgerblue;
+    
+}
+.headline{
+    height: 11vh;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.headline .text{
+    padding-top: 4vh;
+}
+.headline button{
+    padding: 2px 18px;
+    background:mediumblue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    
+}
+.image-gallery{
+    width: 100%;
+    height: 78vh;
+    float: left;
+  
+}
+.image-gallery .row{
+    width: 74%;
+    height: 50vh;
+    margin: 14vh auto;
+}
+.image-gallery .row .col{
+    height: 100%;
+    width: 32%;
+    margin-right:16px;
+    float: left;
+    border-radius: 10px;
+    font-family: arial;
+    box-shadow: 0px 0px 1px gray;
+}
+.image-gallery .row .col:last-child{
+    margin-right: 0px;
+}
+.image-gallery .row .col img{
+    width: 100%;
+    height: 32.7vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image-gallery .row .col h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.image-gallery .row .col p{
+    padding-top:5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.image-gallery .row .col a{
+    
+    padding-left: 20px;
+   text-decoration: none;
+    color: dodgerblue;
+}
+.image-gallery .row .col a:hover{
+    text-decoration: underline;
+}
+.image-gallery .row .col .hot{
+    float: right;
+    margin-right: 30px;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    background: mediumblue;
+    color: white;
+    margin-top: -10px;
+    border: none;
+}
+.page3{
+    height: 75vh;
+    width: 100%;
+    float: left;
+   
+}
+.page3 .box{
+    width: 50%;
+    height: 23vh;
+    float:center;
+    margin: 10vh auto;
+   
+    font-family: arial;
+}
+.page3 .box h1{
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.page3 .box p{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.page3 .row1{
+    height: 30vh;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    
+}
+.page3 .row1 .col1{
+    height: 25vh;
+    width: 45%;
+    float: left;
+    position: absolute;
+   box-shadow: 0px 0px 1px gray;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: arial;
+    color: black;
+  
+    
+}
+.page3 .row1 .col1 .icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: #252525;
+}
+.page3 .row1 .col1 h5{
+    padding-top: 20px;
+     font-size: 15px;
+    
+}
+.page3 .row1 .col1 p{
+   font-size: 15px;
+    padding-top: 5px;
+ 
+}
+.page3 .row1 .col1 a{
+    padding-top:15px;
+    float: left;
+     font-size: 10px;
+    text-decoration: none;
+}
+.page3 .row1 .col1 a:hover{
+    text-decoration: underline;
+}
+.page3 .row1 .col2{
+    height: 25vh;
+    width: 45%;
+    left: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 1px gray;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: arial;
+}
+.page3 .row1 .col2 .icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: #252525;
+}
+.page3 .row1 .col2 h5{
+    padding-top: 20px;
+     font-size: 15px;
+    
+}
+.page3 .row1 .col2 p{
+   font-size: 15px;
+    padding-top: 5px;
+ 
+}
+.page3 .row1 .col2 a{
+    padding-top:15px;
+    float: left;
+     font-size: 10px;
+    text-decoration: none;
+}
+.page3 .row1 .col2 a:hover{
+    text-decoration: underline;
+}
+.page3 .row1 .col2 .link{
+    float: right;
+    margin-right: 30px;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    background: mediumblue;
+    color: white;
+    margin-top: -10px;
+    border: none;
+}
+.page4{
+    height: 80vh;
+    width: 100%;
+    float: left;
+   }
+.page4 .build{
+    height: 68vh;
+    width: 50%;
+    float: left;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 3%;
+    font-family: arial;
+}
+.page4 .build h2{
+    padding-left: 25%;
+    padding-top: 10px;
+}
+.page4 .build .video{
+    padding-left:7%;
+    padding-top: 15px;
+    border-radius: 7px;
+}
+.page4 .build p{
+    padding-left: 7%;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.portfolio{
+    width: 100%;
+    height: 15vh;
+    background: #3498DB ;
+    float: left;
+    text-align: center;
+}
+.portfolio h2{
+    font-weight: 400;
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+    
+}
+.portfolio h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer{
+    height: 75vh;
+    width: 100%;
+    background: #212121;
+    float: left;
+}
+.footer .row3{
+    height: 65vh;
+    width: 80%;
+    margin-top:50px; 
+    margin-left: 10%;
+}
+.footer .row3 .col3{
+    width: 25%;
+    height: 100%;
+    font-family: arial;
+    float: left;
+    color: white;
+}
+.footer .row3 .col3 h4{
+padding-top: 10px;
+padding-left: 10px;
+}
+.footer .row3 .col3 p{
+padding-top: 10px;
+padding-left: 10px;
+font-size: 15px;
+}
+.footer .row3 .col4{
+    width: 25%;
+    height: 100%;
+    font-family: arial;
+    float: left;
+    color: white;
+  
+}
+.footer .row3 .col4 h4{
+padding-top: 10px;
+padding-left: 10px;
+font-size: 15px;
+}
+.footer .row3 .col4 .icon-1{
+    float: left;
+    width: 25%;
+    height: 80%;
+    color: white;
+
+}
+
+.footer .row3 .col4 .details{
+    float: left;
+    width: 70%;
+    height: 80%;
+}
+.footer .row3 .col4 .details p{
+padding-top: 20px; 
+font-size: 15px;
+}
+.footer .row3 .col4 .details p a{
+    text-decoration: none;
+    color: white;
+}
+.footer .row3 .col5{
+    width: 25%;
+    height: 100%;
+    font-family: arial;
+    float: left;
+    color: white;
+    font-size: 15px;
+}
+.footer .row3 .col5 h4{
+padding-top: 10px;
+padding-left: 10px;
+}
+.footer .row3 .col6{
+    width: 25%;
+    height: 100%;
+    font-family: arial;
+    float: left;
+    color: white;
+    font-size: 15px;
+}
+.footer .row3 .col6 h4{
+padding-top: 10px;
+padding-left: 10px;
+}
+.footer .row3 .col6 p{
+padding-top: 20px; 
+font-size: 15px;
+padding-left: 10px;
+}
+.footer .row3 .col6 p input{
+    padding: 8px 15px;
+    background: #E57373;
+    border: none;
+    border: 1px solid #E57373;
+    border-radius: 7px;
+    color: gray;
+    font-size: 15px;
+    
+  
+}
+.footer .row3 .col6 p button{
+    padding: 8px 15px;
+    background: dodgerblue;
+    border: none;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer_last{
+    width: 100%;
+    height: 10vh;
+    float: left;
+    background: #000000;
+}
+.footer_last p{
+    color:  #CFD8DC;
+    float: left;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 10%;
+}
